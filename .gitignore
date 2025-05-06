@@ -1,0 +1,98 @@
+# Node.js dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage reports
+coverage/
+.nyc_output/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# VS Code settings & workspace (JSON files)
+.vscode/
+*.code-workspace
+
+# IDE workspace files
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# JSON data files
+# Ignore all .json data files except essential package files
+*.json
+!package.json
+!package-lock.json
+!npm-shrinkwrap.json
+```gitignore
+# Node.js dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage reports
+coverage/
+.nyc_output/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+*.code-workspace
+
+# IDE/workspace files
+.idea/
+*.sublime-workspace
+*.sublime-project
+```gitignore
+# dependencies
+node_modules/
+
+# environment variables
+.env
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+
+# misc
+coverage/
+*.tgz
